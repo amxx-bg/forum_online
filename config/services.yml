@@ -1,0 +1,10 @@
+services:
+    evilsystem.forum_online.main_listener:
+        class: evilsystem\forum_online\event\main_listener
+        arguments:
+            - @user
+            - @config
+            - @dbal.conn
+            - @cache.driver
+        tags:
+            - { name: event.listener }

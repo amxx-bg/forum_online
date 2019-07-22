@@ -1,0 +1,25 @@
+{
+    "name": "evilsystem/forum_online",
+    "type": "phpbb-extension",
+    "description": "See all the users for each forum.",
+    "homepage": "http://amxx-bg.info/",
+    "version": "1.0.0",
+    "time": "2019-07-22",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Evil",
+            "email": "inkyzfx@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "extra": {
+        "display-name": "See all the users for each forum",
+        "soft-require": {
+        "phpbb/phpbb": ">=3.2.0,<3.3.0@dev"
+        }
+    }
+}
